@@ -183,7 +183,7 @@
     }
     
     input {
-      width: 50%;
+      width: 30%;
       margin: 0px;
       color: white;
       text-align: center;
@@ -222,7 +222,7 @@
     }
 
     .box-title {
-      width: 70%;
+      width: 30%;
       margin: 0;
       margin-bottom: 20px;
     }
@@ -264,7 +264,7 @@
     
     .top-wrapper {
       text-align: center;
-      width: 100%;
+      width: 200%;
     }
 
     .btn-wrapper {
@@ -272,6 +272,8 @@
       justify-content: center;
       position: relative;
       opacity: 0.8;
+      width: 290%;
+      margin-top:50px;
     }
 
     li {
@@ -308,7 +310,6 @@
     h1 {
       color: white;
       padding: 0 0;
-      margin: 0
     }
     
     p {
@@ -317,29 +318,57 @@
     }
     
     .top-wrapper h1 {
-      font-size: 24px;
-      line-height: 36px;
+      font-size: 50px;
+      line-height: 50px;
       color: white;
+      margin-left: 200px;
     }
     
     .top-wrapper p {
-      font-size: 14px;
+      font-size: 24px;
       line-height: 20px;
       color: white;
       margin: 0;
+      margin-left: 300px;
+       margin-top: 10px;
     }
     
     .message-wrapper {
       padding: 180px 0 100px 0;
       color: white;
-      width: 100%;
+      width: 550%;
       margin: 0;
     }
     
     .lesson-wrapper {
       margin: 0;
-      width: 100%;
+      width: 550%;
+       
     }
+
+   .box-wrapper {
+      width: 550%;
+      margin: 0;
+    }
+   .submit-wrapper {
+      margin-bottom: 30px;
+   }
+
+   .lesson-icon {
+      display: block;
+      width: 100%;
+      
+   }
+   
+   .lesson {
+      width: 50%;
+   
+   }
+
+    img {
+      line-height: 50%;
+   }
+    
     
     .input-box h3 {
      font-size: 10px;
@@ -357,7 +386,7 @@
       margin: 30px;
     }
 
-    .title {
+   .title {
       font-size: 15px;
       opacity: 0.6;
       /*color: black;*/
@@ -365,7 +394,7 @@
 
     footer {
       margin: 0;
-      width: 100%;
+      width: 620%;
       height: 240px;
     }
 
@@ -378,12 +407,6 @@
       color: #eee;
       opacity: 0.8;
     }
-   
-
-
-
-
-
 
     footer p {
       color: white;
@@ -399,13 +422,16 @@
       font-size: 13px;
       color: white;
     }
-  
-    td {
-      width: 100%;
-      font-size: 10px;
-      margin: 0;
-    }
+   
+   .title {
+     width: 200%;
+   }
 
+      
+   td {
+      width: 300%;
+   }
+   
     td p {
       font-size: 8px;
     }
