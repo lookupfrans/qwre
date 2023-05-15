@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cormorant', serif;
+  /*background-color: rgba(34, 49, 52, 0.9);*/
+  background: black;
+}
+
+x {
+  cursor: pointer;
+  float: right;
+  margin-top: 65px;
+  margin-right: 40px;
+}
+
+.content {
+    display: none;
+  }
+
+  .loader > .image-title {
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    /*border-top-color: #2a88e6;
+    border: 15px solid #45474b;*/
+    position: absolute;
+    background-image: url(../img/jpg6.jpg);
+    margin: auto;
+    margin-bottom: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    animation: fadeOut 1s infinite linear;
+    /*-webkit-animation-duration: 5s;animation-duration: 1s;*/
+    /*-webkit-animation-fill-mode: both;animation-fill-mode: both;*/
+  }
+
+  @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+  }
+
+  .loader {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #000;
+    /*position: absolute;*/
+  }
+
+.box-title {
+  text-align: center;
+  margin-bottom: 20px;  
+  border: 2px solid red;
+  background-image: linear-gradient(to right, blue, white);
+  border-radius: 12px;
+  padding: 5px;
+  inline-size: 260px;
+  margin-top: 40px;
+  margin-left: 440px;
+  font-size: 28px;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+     visibility: hidden;
+     }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+     visibility: hidden;
+     }
+  }
+
+mySidenav {
+  float: right;
+}
+
+.sidenav {
+height: 100%; 
+width: 0;
+position: fixed; 
+z-index: 1; 
+top: 0; 
+left: 0;
+background-image: linear-gradient(to right, blue, white);
+overflow-x: hidden; 
+padding-top: 60px; 
+transition: 0.5s; 
+}
+
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+
+#main {
+transition: margin-left .5s;
+padding: 0px;
+}
+
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+span {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(to right, blue, white);
+}
+
+
+.header-left {
+  float: left;
+  margin-top: 60px;
+  margin-right: 0;
+  margin-bottom: 100px;
+}
+
+.header-left .title {
+  opacity: 1;
+  font-size: 30px;
+  /*font-family:'Roboto Mono', monospace;*/
+  margin-top: 125px;
+  color: white;
+}
+
+.title {
+  opacity: 1;
+  font-size: 30px;
+  /*font-family:'Roboto Mono', monospace;*/
+  margin-top: 125px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-top: 65px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family:'Roboto Mono', monospace;
+}
+
+.header-right:hover {
+  text-decoration: underlined;
+  font-family:'Roboto Mono', monospace;
+}
+
+  header .menu-icon {
+  display: none;
+}
+
+.message-wrapper {
+  background-color: rgba(34, 49, 52, 0.9);
+  line-height: 40px;
+  margin: 100px;
+}
+
+.fa {
+  margin-right: 125px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 100px;
+  height: 270px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(34, 49, 52, 0.9);
+  background-image: linear-gradient(to right, blue, white);
+}
+
+.title {
+  opacity: 1;
+  font-size: 30px;
+  /*font-family:'Roboto Mono', monospace;*/
+  margin-top: 25px;
+}

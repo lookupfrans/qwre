@@ -1,0 +1,170 @@
+/*@media all and (max-width: 1080px) {
+   body {
+     display: none;
+   }
+
+   header {
+     display: none;
+   }
+
+   .loader {
+     display: none;
+   }
+
+   .content {
+     display: none;
+   }
+
+   .image-title {
+     display: none;
+   }
+
+   footer {
+     display: none;
+   }
+}*/
+
+
+@media all and (max-width: 670px) {
+    header {
+         background: #00008b;
+    }
+    
+    .info {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    
+    mark {
+      color: white;
+      text-decoration: underlined;
+    }
+    
+    small {
+      color: white;
+      opacity: 0.5;
+    }
+    
+    .inp {
+      color: white;
+      border-bottom: 1px solid #eee;
+    }
+    
+    textarea {
+        color: white;
+        border-bottom: 1px solid #eee;
+        width: 50%;
+    }
+    
+    .header-left {
+      padding-left: 40px;
+      color: white;
+      opacity: 0.8;
+    }
+    
+    h4 {
+        color: white;
+    }
+    
+    h1 {
+        font-size: 25px;
+        margin-top: 190px;
+        color: white;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info1 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .fa {
+        margin: 0;
+        color: white;
+
+    }
+    
+    b {
+        color: white
+    }
+    
+     .message-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    
+     p {
+        color: white;
+    }
+    
+     .menu-icon {
+        display: block;
+    }
+    
+     .contact {
+        width: 100%;
+        margin: 0;
+    }
+    
+    input[type=submit] {
+        margin-bottom: 0px;
+        background: #00008b;
+        color: white;
+    }
+    
+    input[type=submit]:hover {
+        background: #00008b;
+        /*color: white;*/
+    }
+    
+    .scroll {
+        width: 70%;
+        margin: 0;
+    }
+    
+    .title {
+      font-size: 15px;
+      opacity: 0.6;
+      /*color: black;*/
+    }
+
+    footer {
+        margin: 0;
+        width: 100%;
+        height: 240px;
+        background: #00008b;
+    }
+    
+    footer p {
+      color: black;
+      opacity: 0.8;
+    }
+
+    footer p a {
+      opacity: 0.7;
+      color: white;
+    }
+    
+    footer td {
+      font-size: 13px;
+      color: white;
+    }
+  
+    td {
+      width: 100%;
+      font-size: 8px;
+      margin: 0;
+      color: white
+    }
+
+    td p {
+      font-size: 8px;
+      color: white;
+    }
+}

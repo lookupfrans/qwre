@@ -1,0 +1,412 @@
+@media all and (max-width: 1000px) {
+   /*.box-title {
+      margin-right: 200px;
+      text-align: center;
+      justify-content: center;
+}*/
+
+    label {
+      color: white;
+      color: #eee;
+      opacity: 0.8;
+    }
+   
+    header {
+     background: #00008b;
+    }
+
+    footer {
+     background: #00008b;
+    }
+
+    footer p a {
+      opacity: 0.7;
+      color: white;
+    }
+    
+    footer td {
+      font-size: 13px;
+      color: white;
+    }
+   
+   .signup {
+     background: #00008b;
+    }
+   
+   /*.message-wrapper {
+     background: #00008b;
+    }*/
+
+   /*.box-wrapper {
+     background: #00008b;
+    }*/
+
+    .message {
+     color: white;
+    }
+
+    .message-wrapper .message {
+     background: #00008b;
+    }
+
+    .box-title {
+     background: #00008b;
+     color: white;
+    }
+   
+   .sidenav {
+     background: #00008b;
+    }
+  
+   .input-box h3 {
+      color: white;
+      font-size: 15px;
+      color: #eee;
+      text-align: center;
+      justify-content: center;
+   }
+   
+    h3 {
+      font-size: 15px;
+      color: white;
+   }
+   
+   .submit-btn {
+      color: white;
+      color: #eee;
+      text-align: center;
+      justify-content: center;
+   }
+
+   .fa {
+      color: white;
+      color: #eee
+   }
+   
+   .fab {
+      color: white;
+      color: #eee;
+      
+      width: 50%;
+   }
+   
+   .fa-brands {
+      color: white;
+      color: #eee;
+      width: 50%;
+   }
+   
+   .bi-instagram {
+      width: 50%;
+   }
+   
+   /*.title {
+      color: white;
+      color: #eee;
+   }
+}*/
+
+
+   /*body {
+     display: none;
+   }
+
+   header {
+     display: none;
+   }
+
+   .loader {
+     display: none;
+   }
+
+   .content {
+     display: none;
+   }
+
+   .image-title {
+     display: none;
+   }
+
+   footer {
+     display: none;
+   }
+}*/
+
+
+@media all and (max-width: 670px) {
+   header {
+     background: #00008b;
+    }
+
+   .btn-wrapper .signup {
+     color: white;
+     opacity: 0.5;
+    }
+   
+    .input-box [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -200%;
+    opacity: 1;
+    }
+
+   footer {
+     background: #00008b;
+    }
+
+   .sidenav {
+     background: #00008b;
+    }
+    
+   .lesson {
+      width: 100%;
+    }
+    
+    .header-right {
+      display: none;
+    }
+
+    .box {
+      width: 100%;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%;
+      /*text-align: center;*/
+
+    }
+
+    .input-box {
+      width: 100%;
+      margin-left: 0px;
+      text-align: center;
+    }
+    
+    input {
+      width: 50%;
+      margin: 0px;
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+   .sidenav a {
+      font-size: 20px;
+      padding: 8px 8px 8px 32px;
+      color: white;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      font-size: 36px;
+      margin-left: 50px;
+      color: white;
+     }
+
+    textarea {
+      margin: 0;
+      color: white;
+      text-align: center;
+    }
+
+    .submit-btn {
+      margin: 0;
+      border: 1px solid #000;
+      margin-bottom: 10px;
+      color: white;
+      text-align: center;
+      background-color: #011352;
+      margin-top: 10px;
+    }
+
+    .box-title {
+      width: 70%;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    
+     /*.title {
+      color: black;
+    }*/
+
+    small {
+      color: white;
+      opacity: 0.5;
+    }
+    
+    .header-left {
+      padding-left: 40px;
+      color: white;
+      opacity: 0.8;
+    }
+    
+    h2 {
+      color: white;
+      opacity: 0.8;
+      margin: 0;
+      margin-right: 30px;
+    }
+    
+    .btn {
+      width: auto;
+      justify-content: center;
+      padding: 10px 10px;
+      margin: auto;
+      opacity: 0.8;
+      color: black;
+    }
+
+    a {
+      opacity: 0.8;
+    }
+    
+    .top-wrapper {
+      text-align: center;
+      width: 100%;
+    }
+
+    .btn-wrapper {
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      opacity: 0.8;
+    }
+
+    li {
+      display: none;
+    } 
+    
+    .instagram {
+        margin: 0;
+        opacity: 0.8;
+    }
+
+    .fa {
+        margin: 0;
+        color: white;
+    }
+    
+    .facebook {
+        opacity: 0.8;
+        margin: 0;
+        margin-right: 25px;
+        margin-top: 5px;
+    }
+
+    .twitter {
+        opacity: 0.8;
+        margin: 0;
+    }   
+        
+    .menu-icon {
+      display: block;
+      color: white;
+    }
+    
+    h1 {
+      color: white;
+      padding: 0 0;
+      margin: 0
+    }
+    
+    p {
+      color: white;
+      width: 100%;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+      color: white;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+      color: white;
+      margin: 0;
+    }
+    
+    .message-wrapper {
+      padding: 180px 0 100px 0;
+      color: white;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .lesson-wrapper {
+      margin: 0;
+      width: 100%;
+    }
+    
+    .input-box h3 {
+     font-size: 10px;
+     margin-left: 0px;
+    }
+ 
+     h3 {
+     font-size: 7px;
+     color: white;
+     font-family: 'Cormorant', serif;
+    }
+
+    .sosmed {
+      display: flex;
+      margin: 30px;
+    }
+
+    .title {
+      font-size: 15px;
+      opacity: 0.6;
+      /*color: black;*/
+    }
+
+    footer {
+      margin: 0;
+      width: 100%;
+      height: 240px;
+    }
+
+    input [type=checkbox] {
+      width; 50%;
+    }
+
+    label {
+      color: white;
+      color: #eee;
+      opacity: 0.8;
+    }
+   
+
+
+
+
+
+
+    footer p {
+      color: white;
+      opacity: 0.8;
+    }
+
+    footer p a {
+      opacity: 0.7;
+      color: white;
+    }
+    
+    footer td {
+      font-size: 13px;
+      color: white;
+    }
+  
+    td {
+      width: 100%;
+      font-size: 10px;
+      margin: 0;
+    }
+
+    td p {
+      font-size: 8px;
+    }
+}
